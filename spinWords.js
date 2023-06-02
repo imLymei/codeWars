@@ -1,14 +1,4 @@
-// function spinWords(string) {
-// 	let newString = string.split(' ');
-
-// 	newString.map((word, index) => {
-// 		if (word.length > 4) {
-// 			newString[index] = word.split('').reverse().join('');
-// 		}
-// 	});
-
-// 	return newString.join(' ');
-// }
+// https://www.codewars.com/kata/5264d2b162488dc400000001
 
 function spinWords(string) {
 	return string
